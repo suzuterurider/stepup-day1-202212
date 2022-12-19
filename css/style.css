@@ -148,8 +148,28 @@ footer{
 }
 
 @media screen and (max-width:478px){
-    body{
-        background-color: red;
+    section{
+        margin: 80px auto;
+    }
+
+    #mainVisual{
+        height: 60vh;
+    }
+    #mainVisual h1{
+        font-size: 32px;
+    }
+    #about,#info{
+        flex-direction: column-reverse;
+    }
+    #about .about_box,#info .info_box{
+        width: 100%;
+    }
+    #about img{
+        height: 250px;
+        width: 100%;
+    }
+    #info iframe{
+        width: 100%;
     }
 }
 
